@@ -1,0 +1,284 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    border-bottom: 1px solid #ccc ;
+    align-items: center;
+    gap: 40px;
+}
+
+.leftheader{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    padding: 22px 30px;
+    border-right: 1px solid #ccc;
+}
+.address{
+    padding: 22px 30px;
+}
+.address h3{
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+.address p{
+    font-size: 14px;
+}
+
+.centerheader{
+    flex-grow: 1;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #f4f4f4;
+    display: flex;
+    border-radius: 15px;
+}
+.centerheader button{
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+}
+.centerheader input{
+    flex-grow: 1;
+    border: none;
+    background-color: transparent;
+}
+
+.centerheader input:focus{
+    outline: none;
+}
+
+.rightheader{
+    display: flex;
+     margin-right: 40px;
+     gap: 40px;
+}
+
+.rightheader button {
+    font-size: 15px;
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(17, 103, 17);
+}
+
+.bannerSection{
+    margin: 20px auto;
+    max-width: 1280px;
+
+    
+}
+
+.bannerSection img{
+    width: 100%;
+}
+
+.groupBanner{
+    max-width: 1280px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+}
+
+.groupBanner img{
+    width: 100%;
+}
+
+.Category{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+}
+
+.CategorySection {
+    flex-basis: 10%;
+}
+.CategorySection img {
+    width: 100%;
+}
+
+.ProductSection{
+    margin: auto;
+    max-width: 1280px;
+}
+.ProductRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 30px 0px;
+    width: 100%;
+}
+
+.ProductItems{
+    flex-basis: 15%;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px 2px #fcfcfc;
+}
+
+.ProductImage{
+    text-align: center;
+    padding: 15px;
+}
+
+.ProductImage p{
+    background-color: #f8f8f8;
+    text-align: left;
+    font-size: 12px;
+    align-items: center;
+    gap: 5px;
+    display: flex;
+    width: 67px;
+}
+.ProductContent{
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.ProductContent h3{
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.ProductContent p {
+    color: rgb(19, 82, 31);
+    padding-top: 20px;
+}
+
+.btn_price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn_price button{
+    background-color: #f7f7f7;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: 2px solid green;
+}
+
+.mainFooter{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.footerRow1{
+    display: flex;
+    width: 100%;
+}
+.footerRow1left{
+    flex-basis: 30%;
+    gap: 60px;
+}
+.footerRow1right{
+    flex-basis: 70%;
+
+    
+}
+
+.usefulllinks{
+    display: flex;
+}
+
+.usefulllinks ul{
+    flex-basis: 33%;
+    list-style: none;
+  
+}
+
+.usefulllinks ul li a{
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+}
+
+.footerRow1left h3{
+    margin-bottom: 20px;
+}
+
+
+
+.footerRow2heading{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.footerRow2heading h3{
+    padding-right: 20px;
+}
+
+.footerRow2heading a{
+    color: green;
+}
+.usefulllinks2{
+    display: flex;
+}
+.usefulllinks2 ul{
+    flex-basis: 33%;
+    list-style: none;
+  
+}
+.usefulllinks2 ul li a{
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+}
+.footerRow2{
+    background-color: #fcfcfc;
+    width: 100%;
+    display: flex;
+    padding: 20px 20px;
+    gap: 70px;
+}
+.footerRow3 p {
+    padding: 20px 0px;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(102, 102, 102);
+}
+.footerRow2left {
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.footerRow2center {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.slinks{
+    display: flex;
+    gap: 50px;
+}
+.footerRow2center p {
+    align-items: center;
+}
+
+.slinks i{
+    width: 30px;
+    color: white;
+    height: 30px;
+    border-radius: 40px;
+    background-color: #1f1f1f;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+

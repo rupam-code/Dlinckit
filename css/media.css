@@ -1,0 +1,134 @@
+@media only screen and (max-width: 575px) {
+    /* Header responsiveness */
+    header {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 15px;
+    }
+
+    .leftheader {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        padding: 10px;
+        border-right: 1px solid #ccc;
+    }
+
+    .address {
+        padding: 10px;
+    }
+
+    .address p {
+        font-size: 13px;
+    }
+
+    .centerheader {
+        margin: 0 10px;
+    }
+
+    .rightheader {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        justify-content: center;
+        background-color: white;
+        padding: 10px 0;
+        gap: 20px;
+        z-index: 1000;
+        border-top: 1px solid #ccc;
+    }
+
+    /* Banner section hidden on mobile */
+    .bannerSection {
+        display: none;
+    }
+
+    /* Group banners stacked */
+    .groupBanner {
+        flex-direction: column;
+        gap: 5px;
+        padding: 0 10px;
+    }
+
+    /* Category responsiveness */
+    .CategorySection {
+        flex-basis: 25%;
+    }
+
+    /* Product section responsiveness */
+    .ProductRow {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 10px;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .ProductItems {
+        flex-basis: 48%;
+        margin-bottom: 15px;
+    }
+
+    .ProductItems img {
+        width: 100%;
+        height: auto;
+    }
+
+    .ProductContent h3 {
+        font-size: 14px;
+    }
+
+    .ProdcutTitle {
+        align-items: center;
+        text-align: center;
+    }
+
+    .ProductContent p {
+        font-size: 13px;
+    }
+
+    .btn_price p {
+        font-size: 14px;
+    }
+
+    .btn_price button {
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+    .footer{
+        padding-top: 0px;
+    }
+    .footerRow1{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .footerRow2{
+        flex-direction: column;
+    }
+
+    .footerRow2heading li {
+        gap: 40px;
+    }
+    .footerRow1right {
+        margin-top: 20px;
+    }
+    
+    /* Make useful links wrap to 2 columns */
+    .usefulllinks2 {
+        flex-wrap: wrap;
+    }
+    
+    .usefulllinks2 ul {
+        flex-basis: 50%; /* Two columns */
+        margin-bottom: 20px;
+    }
+.footerRow3 p {
+    margin: 10px;
+}
+    
+    
+}
